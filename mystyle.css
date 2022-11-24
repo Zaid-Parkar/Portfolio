@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.boddy{
+    color: white;
+    background: rgb(2,29,68);
+background: linear-gradient(90deg, rgba(2,29,68,1) 0%, rgba(2,29,68,1) 43%, rgba(8,35,73,1) 65%);
+}
+#intro{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+.name{
+    padding-left: 30px;
+    text-align: left;
+    font-size: 200px;
+    line-height: 1.0;
+    color: #ff3e55;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#intro {
+    
+
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+} 
+h1{
+    position: relative;
+    color:#6c63ff;
+    font-size:4em;
+}
+h1 span{
+    position: absolute;
+    top:0;
+    right: 0;
+    background: rgb(2,29,68);
+    background: linear-gradient(90deg, rgba(2,29,68,1) 0%, rgba(2,29,68,1) 43%, rgba(8,35,73,1) 65%);
+    
+    width:100%;
+    border-left:.02em solid transparent;
+    -webkit-animation: typing 3s steps(16) forwards, cursor 1s infinite;
+    animation: typing 3s steps(16) forwards, cursor 1s infinite;
+}
+@-webkit-keyframes typing{
+    from{width:100%;}
+    to{width:0}
+}
+@-webkit-keyframes cursor{
+     50%{border-color:white;}
+}
+
+@keyframes typing{
+    from{width:100%;}
+    to{width:0}
+}
+@keyframes cursor{
+     50%{border-color:white;}
+}
+
