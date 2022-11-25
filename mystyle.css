@@ -1,39 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,600;0,800;1,700&display=swap');
+
+
+
+
 .boddy{
-    color: white;
-    background: rgb(2,29,68);
-background: linear-gradient(90deg, rgba(2,29,68,1) 0%, rgba(2,29,68,1) 43%, rgba(8,35,73,1) 65%);
-}
-#intro{
-    position: absolute;
-    top: 25%;
-    left: 20%;
-}
-.name{
-    padding-left: 30px;
-    text-align: left;
-    font-size: 200px;
-    line-height: 1.0;
-    color: #ff3e55;
-    font-weight: 500;
-    font-family: 'Roboto Slab', serif;
+    color: rgb(2, 0, 0);
+    /* background: rgb(2,29,68);
+background: linear-gradient(90deg, rgba(2,29,68,1) 0%, rgba(2,29,68,1) 43%, rgba(8,35,73,1) 65%); */
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+.bgimg{
+    height: 100%;
+  z-index: -2;
+        background:  url("./images/bg.png") no-repeat center center fixed;
+        background-size:cover ; 
+        padding-bottom: 27%;
+        
 }
-#intro {
+
+.navbar .nav-link {
     
+    color: rgb(255, 255, 255);
+  }
 
- 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Poppins', sans-serif;
+
+
+
+.name{
+    display: flex;
+    justify-content: center;
+margin-top: 15%;
+color: rgb(255, 255, 255);
+
+  
+
+    
+    font-family: 'Karla', sans-serif;
+}
+
+.main-heading{
+    font-size: 100px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    z-index: 20;
+}
+.about-me {
+    color: red;
+padding-top:20px;
+z-index: 5;
+
 } 
-h1{
+.head{
+
+}
+.sub-head{
+
+}
+
+
+
+
+
+/*
+ h1{
     position: relative;
     color:#6c63ff;
     font-size:4em;
@@ -65,4 +95,4 @@ h1 span{
 @keyframes cursor{
      50%{border-color:white;}
 }
-
+ */
