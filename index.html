@@ -1,116 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="mystyle.css">
-        <title>Zaid Parkar</title>
-    </head>
+  <head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Zaid Parkar</title>
+  </head>
 
-    <body class="boddy">
+  <body class="boddy">
 
-        <section id="fpage" class="bgimg">
-        <!-- navbar -->
-        <section id="navbar">
-            <nav class= "  navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
-                <div class="container-fluid">
-                  <!-- Navbar brand -->
-                  <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
-                    <strong>ZAID PARKAR</strong>
+    <section id="fpage" class="bgimg">
+      <!-- navbar -->
+      <section id="navbar">
+        <nav class="  navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+          <div class="container-fluid">
+            <!-- Navbar brand -->
+            <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+              <strong>ZAID PARKAR</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="#intro">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow" target="_blank">My skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://mdbootstrap.com/docs/standard/" target="_blank">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://mdbootstrap.com/docs/standard/" target="_blank">Contact me</a>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav list-inline icon">
+                <!-- Icons -->
+                <li class="">
+                  <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow" target="_blank">
+                    <i class="fab fa-youtube"></i>
                   </a>
-                  <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-                    aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarExample01">
-                    <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
-                      <li class="nav-item active">
-                        <a class="nav-link" aria-current="page" href="#intro">About me</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
-                          target="_blank">My skills</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://mdbootstrap.com/docs/standard/" target="_blank">Projects</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://mdbootstrap.com/docs/standard/" target="_blank">Contact  me</a>
-                      </li>
-                    </ul>
-             
-                    <ul class="navbar-nav list-inline icon">
-                      <!-- Icons -->
-                      <li class="">
-                        <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
-                          target="_blank">
-                          <i class="fab fa-youtube"></i>
-                        </a>
-                      </li>
-                      <li class="">
-                        <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow" target="_blank">
-                          <i class="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
-                          <i class="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
-                          <i class="fab fa-github"></i>
-                        </a>
-                      </li>
-                    </ul>
+                </li>
+                <li class="">
+                  <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <!-- // intro -->
+
+      <section id="intro ">
+       
+
+
+
+        <div class="name ">
+          <h1 class="main-heading">Web Developer & Web Designer <span> </span></h1>
+
+        </div>
+      </section>
+    </section>
+    <!-- ABOUT ME -->
+    <section id="aboutme">
+      <div class="abtme m-auto">
+        <div class="about-me btn btn-primary bg-transparent">
+          <h2>About me</h1>
+        </div>
+        <div>
+          <p class="head">I love everything about Design</p>
+        </div>
+        <div>
+          <p class="sub-head m-auto">I am a self-taught Web Developer and I’ve been learning with the help of different online resources.</p>
+        </div>
+      </div>
+
+
+    </section>
+    <section id="aboutme">
+      <div class="abtme2 m-auto">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3>Back-end</h1>
+                <p>My main focus. I love algorithm & software design. RESTful & secure back-end with authorizations and database validations</p>
+            </div>
+            <div class="col">
+              <h3>Front-end</h3>
+              <p>Responsive & animated layouts with performance optimization</p>
+            </div>
+            <div class="col">
+              <h3>Best Practice</h3>
+              <p>Clean code, following style guides, naming conventions & pattern principles</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h3>Best Practice</h3>
+              <p>I've learnt to google, read error messages & understand documentations</p>
+            </div>
+            <div class="col">
+              <h3>Team Buddy</h3>
+              <p>Github team workflow using feature branches & pull requests/code reviews. MVP & agile methodology for projects</p>
+            </div>
+            <div class="col">
+              <h3>Learning & Sharing</h3>
+              <p>My purposes at heart. My best coding experiences are the ones I have with other people. I strongly believe in team synergie</p>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <section id="aboutme">
+      <h1 class="section-heading"><u>Skills</u></h1>
+
+      <div class="abtme2 m-auto">
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="skill-heading">Frontend</h2>
+              <ul class="skills-sub-headings">
+                <li >HTML &amp; CSS</li>
+                <li>JavaScript</li>
+                <li>Tailwind</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="col">
+              <h2 class="skill-heading">Backend</h2>
+              <ul class="skills-sub-headings">
+                <li>SQL</li>
+
+                <li>PostgreSQL</li>
+
+              </ul>
+            </div>
+            <div class="col">
+              <h2 class="skill-heading">Workflow</h2>
+              <ul class="skills-sub-headings">
+                <li>Git / Github</li>
+                <li>Heroku</li>
+                <li>Discord</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- projects -->
+    <section id="aboutme">
+      <h1 class="section-heading"><u>Projects</u></h1>
+      <div class="row project m-auto">
+
+        <div class="card border col-lg-3 shadow  mb-5 bg-body rounded zoom" style="height:20rem;">
+          <a class="research-links" href="https://github.com/Zaid-Parkar/Facebook-Login-Page-Clone" target="_blank">
+            <img class="research-main-image " src="./images/fb.jpg" alt="...">
+            <div class="info">
+              <h3 class="research-main-description">Facebook login page clone</h3>
+              <p class="research-main-sub-description">Patents Granted & Patents Filed.</p>
+            </div>
+          </a>
+        </div>
+        <div class="card border  col-lg-3 shadow  mb-5 bg-body rounded zoom" style="height:20rem;">
+          <a class="research-links" href="https://github.com/Zaid-Parkar/Smart-Home" target="_blank">
+            <img class="research-main-image" src="./images/hs.png" alt="...">
+            <div class="info">
+              <h3 class="research-main-description">Smart home</h3>
+              <p class="research-main-sub-description">Details of R&D Awards.</p>
+            </div>
+          </a>
+        </div>
+        <div class="card border col-lg-3 shadow  mb-5 bg-body rounded zoom" style="height:20rem;">
+          <a class="research-links" href="https://github.com/Zaid-Parkar/D.Y-Patil-website" target="_blank">
+            <img class="research-main-image" src="./images/dy (1).png" alt="...">
+            <div class="info">
+              <h3 class="research-main-description">D.Y Patil clone</h3>
+              <p class="research-main-sub-description">Copyrights Registered & Copyrights Filed.</p>
+            </div>
+          </a>
+        </div>
+        <div class="card border col-lg-3 shadow  mb-5 bg-body rounded zoom" style="height:20rem;">
+          <a class="research-links" href="https://github.com/Zaid-Parkar/Tindog-Website" target="_blank">
+            <img class="research-main-image" src="./images/td.png" alt="...">
+            <div class="info">
+              <h3 class="research-main-description">Tindog</h3>
+              <p class="research-main-sub-description">National & International Conference.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="text-center ">
+        <a href="https://github.com/Zaid-Parkar" target="_blank"><button type="button" class="btn btn-danger btn-lg research-btn">More Projects</button></a>
+      </div>
+    </section>
+
+
+
+    <!-- contact us -->
+    <section id="aboutme ">
+      <!--Section: Contact v.2-->
+      <section class="mb-4">
+        <div class="contactus contactus-text">
+          <!--Section heading-->
+          <h2 class="section-heading">Contact us</h2>
+          <!--Section description-->
+          <p class="text-center w-responsive mx-auto mb-5 contactus-text">Do you have any questions? Please do not hesitate to contact us directly.</p>
+
+          <div class="row project m-auto">
+
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+              <form id="contact-form" name="contact-form" action="contactus.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input type="text" id="name" name="Name" class="form-control">
+                      <label for="name" class="">Your name</label>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input type="text" id="email" name="Email" class="form-control">
+                      <label for="email" class="">Your email</label>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="md-form mb-0">
+                      <input type="text" id="subject" name="Message" class="form-control">
+                      <label for="subject" class="">Subject</label>
+                    </div>
                   </div>
                 </div>
-              </nav>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                    <div class="md-form">
+                      <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                      <label for="message">Your message</label>
+                    </div>
+
+                  </div>
+                </div>
+                <!--Grid row-->
+
+              </form>
+
+              <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+              </div>
+              <div class="status"></div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+              <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>Mumbai,India</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+91 123456789</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>parkarzaid713@gmail.com</p>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+          </div>
         </section>
-
-        <!-- // intro -->
-
-        <section id="intro ">
-            <div class="btn-name">
-           
-                <button type="button " class="btn btn-nameb btn-primary">ZAID PARKAR</button></div>
-               
-
-            
-           <div class="name ">
-            <h1 class="main-heading">Web Developer & Web Designer <span> </span></h1>
-           
-        </div>
-        </section>
-    </section>
-<!-- ABOUT ME -->
-<section id="aboutme">
-  <div class="abtme m-auto">
-  <div class="about-me btn btn-primary"><h2 >About me</h1></div>
-      <div><p class="head">I love everything about Design</p></div>
-      <div><p class="sub-head m-auto">I am a self-taught Web Developer and I’ve been learning with the help of different online resources.</p></div>
+      </section>
+      <!--Section: Contact v.2-->
     </div>
-
-    
-</section>
-<section id="aboutme">
-    <div class="abtme2 m-auto">
-      .abtme{
-    
-    width: 35%;
-    text-align: center;
-}
-
-
-</section>
+   
 
 
 
 
 
-    </body>
+  </body>
 
 </html>
