@@ -3,7 +3,8 @@
 
 
 
-.boddy{
+.boddy{ 
+  scroll-behavior: smooth;
     color: rgb(2, 0, 0);
     /* background: rgb(2,29,68);
 background: linear-gradient(90deg, rgba(2,29,68,1) 0%, rgba(2,29,68,1) 43%, rgba(8,35,73,1) 65%); */
@@ -37,7 +38,9 @@ color: rgb(255, 255, 255);
     
     font-family: 'Karla', sans-serif;
 }
-
+.bg-grey{
+  background-color: #f8f8f8;
+}
 .main-heading{
     font-size: 100px;
    
@@ -45,11 +48,11 @@ color: rgb(255, 255, 255);
     font-weight: 600;
     z-index: 20;
 }
-#aboutme {
-    padding-bottom: 100px;
+#aboutme #projects #contactme #skills #AboutMe {
+    padding-bottom:70px;
   
-    color: red;
-padding-top:150px;
+    color: rgb(0, 0, 0);
+padding-top:00px;
 }
 
 .abtme{
@@ -64,7 +67,10 @@ padding-top:150px;
     text-align: center;
 }
 
-
+.project-link{
+  text-decoration: none;
+  text-decoration: wavy;
+}
 
 .project{
     width: 70%;
@@ -92,6 +98,10 @@ line-height: 29px;
 color: #495057;
 }
 
+.fas{
+  color: #008bf8;
+  
+}
 .skill-heading{
   text-align: left;
   font-size: 27px;
@@ -103,8 +113,9 @@ color: #495057;
 font-size: 48px;
 font-weight:600 ;
 line-height: 96px;
-padding-left: 200px;
-padding-bottom: 30px;
+
+padding-bottom: 40px;
+text-align: center;
 }
 
 h2{
@@ -167,9 +178,12 @@ h2{
   }
 
   .research-main-image {
-    width: 263px;
-    height: 200px;
-    object-fit: cover;
+    width: 263px !important;
+    height: 200px !important;
+    object-fit:contain;
+    overflow: hidden;
+  margin-top: 0%;
+    padding-top: 0;
   }
 
   .contactus{
