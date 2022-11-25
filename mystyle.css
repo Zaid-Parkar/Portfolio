@@ -40,23 +40,50 @@ color: rgb(255, 255, 255);
 
 .main-heading{
     font-size: 100px;
-    justify-content: center;
+   
     text-align: center;
     font-weight: 600;
     z-index: 20;
 }
-.about-me {
+#aboutme {
+    
+  
     color: red;
-padding-top:20px;
-z-index: 5;
+padding-top:150px;
+}
 
-} 
-.head{
+.abtme{
+    
+    width: 35%;
+    text-align: center;
+}
 
+.abtme2{
+    
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+.head{ 
+    padding-top: 50px;
+
+font-weight: 400;
+font-size: 53px;
+line-height: 61px;
+color: #212529;
 }
 .sub-head{
 
+    width: 80%;
+padding-top: 10px;
+font-size: 19px;
+line-height: 29px;
+color: #495057;
 }
+
 
 
 
