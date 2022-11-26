@@ -15,21 +15,23 @@
     <title>Zaid Parkar</title>
   </head>
 
-  <body class="boddy">
+  <body class="body">
 
     <section id="fpage" class="bgimg">
       <!-- navbar -->
       <section id="navbar">
-        <nav class="  navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+        
+        <nav class="  navbar navbar-expand navbar-dark  d-lg-block" style="z-index: 2000;">
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
           <div class="container-fluid">
             <!-- Navbar brand -->
-            <a class="navbar-brand nav-link"  href="./index.html">
+            <a class="navbar-brand navbar nav-link"  href="./index.html">
               <strong>ZAID PARKAR</strong>
             </a>
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarExample01">
+         
+            <div class="collapse navbar-collapse" id="navbarr">
               <ul class="navbar-nav m-auto mb-2 mb-0 ">
                 <li class="nav-item active">
                   <a class="nav-link" aria-current="page" href="#AboutMe">About me</a>
@@ -85,13 +87,13 @@
     <!-- ABOUT ME -->
     <section id="AboutMe">
       <div class="abtme m-auto">
-        <div class="about-me btn btn-primary bg-transparent mt-5">
-          <h2>About me</h1>
+        <div class="about-me mt-5">
+          <h4 class="section-heading"><u>About me</u></h4>
         </div>
 
         <div>
           <img class="pt-5 profilepic" src="./images/ZAID-PIC-modified.png" width="300" height="350">
-          <p class="head">I love everything about Design</p>
+          <p class="head">I Love Everything About Design</p>
         </div>
         <div>
           <p class="sub-head m-auto pb-5">I am a self-taught Web Developer and I’ve been learning with the help of different online resources.</p>
@@ -187,16 +189,16 @@
         <h1 class="section-heading"><u>Projects</u></h1>
         <div class="row project m-auto">
 
-          <div class="card border col-lg-3 shadow  mb-5 bg-body rounded zoom" style="height:20rem;">
+          <div class="card border col-5 shadow  mb-5 bg-body rounded zoom" style="height:20rem;">
             <a class="project-link " href="https://github.com/Zaid-Parkar/Facebook-Login-Page-Clone" >
               <img class="project-main-image img-fluid " src="./images/fb.jpg" alt="...">
               <div class="info"><br>
-                <h3 class="project-link">Facebook login page clone</h3>
+                <h3 class="project-link">Facebook login page </h3>
 
               </div>
             </a>
           </div>
-          <div class="card border  col-lg-3 shadow  mb-5 bg-body rounded zoom" style="height:20rem;">
+          <div class="card border  col-lg-3 shadow  m bg-body rounded zoom" style="height:20rem;">
             <a class="project-link " href="https://github.com/Zaid-Parkar/Smart-Home" >
               <img class="project-main-image img-fluid" src="./images/hs.png" alt="...">
               <div class="info"><br>
@@ -205,7 +207,7 @@
               </div>
             </a>
           </div>
-          <div class="card border col-lg-3 shadow  mb-5 bg-body rounded zoom" style="height:20rem;">
+          <div class="card border col-lg-3 shadow   bg-body rounded zoom" style="height:20rem;">
             <a class="project-link " href="https://github.com/Zaid-Parkar/D.Y-Patil-website" >
               <img class="project-main-image img-fluid" src="./images/dy (1).png" alt="...">
               <div class="info"><br>
@@ -214,7 +216,7 @@
               </div>
             </a>
           </div>
-          <div class="card border col-lg-3 shadow  mb-5 bg-body rounded zoom" style="height:20rem;">
+          <div class="card border col-lg-3 shadow  bg-body rounded zoom" style="height:20rem;">
             <a class="project-link " href="https://github.com/Zaid-Parkar/Tindog-Website" >
               <img class="project-main-image img-fluid" src="./images/td.png" alt="...">
               <div class="info">
@@ -243,7 +245,7 @@
           <!--Section heading-->
           <h2 class="section-heading">Contact us</h2>
           <!--Section description-->
-          <p class="text-center w-responsive mx-auto mb-5 contactus-text">Do you have any questions? Please do not hesitate to contact us directly.</p>
+          <p class="text-center w-responsive mx-auto mb-5 contactus-text contactus-maindesc">Do you have any questions? Please do not hesitate to contact us directly.</p>
 
           
 
@@ -259,7 +261,7 @@
                   <div class="col-md-6">
                     <div class="md-form mb-0">
                       <input type="text" id="name" name="Name" class="form-control">
-                      <label for="name" class="">Your name</label>
+                      <label for="name" class="contactus-desc">Your name</label>
                     </div>
                   </div>
                   <!--Grid column-->
@@ -268,7 +270,7 @@
                   <div class="col-md-6">
                     <div class="md-form mb-0">
                       <input type="text" id="email" name="Email" class="form-control">
-                      <label for="email" class="">Your email</label>
+                      <label for="email" class="contactus-desc">Your email</label>
                     </div>
                   </div>
                   <!--Grid column-->
@@ -281,7 +283,7 @@
                   <div class="col-md-12">
                     <div class="md-form mb-0">
                       <input type="text" id="subject" name="Subject" class="form-control">
-                      <label for="subject" class="">Subject</label>
+                      <label for="subject" class="contactus-desc">Subject</label>
                     </div>
                   </div>
                 </div>
@@ -295,7 +297,7 @@
 
                     <div class="md-form">
                       <textarea type="text" id="message" name="Message" rows="2" class="form-control md-textarea "></textarea>
-                      <label for="message">Your message</label>
+                      <label class="contactus-desc" for="message">Your message</label>
                     </div>
 
                   </div>
@@ -305,24 +307,24 @@
               </form>
 
               <div class="text-center text-md-left">
-                <a class="btn btn-primary mt-3" onclick="document.getElementById('contact-form').submit();">Send</a>
+                <a class="btn btn-primary mt-3" onclick="myFunction()">Send</a>
               </div>
               <div class="status"></div>
               
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            
-            <!--Grid column-->
-
+          
           </div>
       </section>
     </section>
 
     </div>
 
-
+    <script>
+      function myFunction() {
+        alert("Will get in touch soon");
+      }
+      </script>
+      
 
 
 

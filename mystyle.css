@@ -3,11 +3,12 @@
 
 .html{
 font-size: 62.5%;
-/* font-family: 'Roboto Slab', serif;*/
+
 font-family: 'Courier New', Courier, monospace;
 } 
 
-.boddy{ 
+.body{ 
+font-family: 'Roboto Slab', serif;
   scroll-behavior: smooth;
     color: rgb(2, 0, 0);
     /* background: rgb(2,29,68);
@@ -22,8 +23,10 @@ background: linear-gradient(90deg, rgba(2,29,68,1) 0%, rgba(2,29,68,1) 43%, rgba
         padding-bottom: 27%;
         
 }
-
-.navbar .nav-link {
+.navbar{
+  font-size: 1.5rem;
+}
+ .nav-link {
     
     color: rgb(255, 255, 255);
   }
@@ -39,7 +42,7 @@ color: rgb(255, 255, 255);
   background-color: #f8f8f8;
 }
 .main-heading{
-  font-family: cursive;
+  padding: 1rem;
     font-size: 10.0rem;
    margin-top: 20rem;
     text-align: center;
@@ -53,6 +56,9 @@ color: rgb(255, 255, 255);
 
 }
 
+.card{
+  height: ;
+}
 .abtme{
     
     width: 35%;
@@ -130,8 +136,14 @@ h2{
     color: rgb(0, 0, 0);
     text-align:left;
 }
-
-
+.contactus-maindesc{
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+.contactus-desc{
+  font-size: 1rem;
+  line-height: 1.5;
+}
 /* project */
 .project-main {
     margin-bottom: 10.0rem;
@@ -273,6 +285,7 @@ h2{
     html {
       font-size:70%;
     }
+    
     .profilepic{
       width: 40%;
     height: auto;
@@ -292,7 +305,7 @@ h2{
       font-size:100%;
     }
     .main-heading{
-      font-size: 7rem;
+      font-size: 6rem;
     }
     
     .profilepic{
