@@ -1,0 +1,1 @@
+// directly used scipt in html
