@@ -44,17 +44,17 @@ color: rgb(255, 255, 255);
   background-color: #f8f8f8;
 }
 .main-heading{
-    font-size: 100px;
+    font-size: 10.0rem;
    
     text-align: center;
     font-weight: 600;
     z-index: 20;
 }
 #aboutme #projects #contactme #skills #AboutMe {
-    padding-bottom:70px;
+    padding-bottom:7.0rem;
   
     color: rgb(0, 0, 0);
-padding-top:00px;
+
 }
 
 .abtme{
@@ -79,11 +79,11 @@ padding-top:00px;
     text-align: center;
 }
 .head{ 
-    padding-top: 50px;
+    padding-top: 5.0rem;
 
 font-weight: 400;
-font-size: 53px;
-line-height: 61px;
+font-size: 5.3rem;
+line-height: 6.1rem;
 color: #212529;
 }
 li{
@@ -94,9 +94,9 @@ li{
 .sub-head{
 
     width: 80%;
-padding-top: 10px;
-font-size: 19px;
-line-height: 29px;
+padding-top: 1rem;
+font-size: 1.9rem;
+line-height: 2.9rem;
 color: #495057;
 }
 
@@ -106,30 +106,30 @@ color: #495057;
 }
 .skill-heading{
   text-align: left;
-  font-size: 27px;
+  font-size: 2.7rem;
   font-weight: 600;
-  line-height: 33px;
+  line-height: 3.3rem;
 }
 
 .section-heading{
-font-size: 48px;
+font-size: 4.8rem;
 font-weight:600 ;
-line-height: 96px;
+line-height: 9.6rem;
 
-padding-bottom: 40px;
+padding-bottom: 4rem;
 text-align: center;
 }
 
 h2{
-  font-size: 27px;  
+  font-size: 2.7rem;  
   font-weight: 600;
-  line-height: 33px;
+  line-height: 3.3rem;
   color: #008bf8;
 }
 .skills-sub-headings{
     font-weight:400;
-    font-size: 21px;
-    line-height: 25px;
+    font-size: 2.1rem;
+    line-height: 2.5rem;
     color: rgb(0, 0, 0);
     text-align:left;
 }
@@ -137,8 +137,8 @@ h2{
 
 /* Research */
 .research-main {
-    margin-bottom: 100px;
-    margin-top: 60px;
+    margin-bottom: 10.0rem;
+    margin-top: 6.0rem;
   }
   
   .border-primary {
@@ -146,14 +146,14 @@ h2{
   }
   
   .info {
-    margin-left: 15px;
+    margin-left: 1.5rem;
   }
   
   .research-sub-description {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 24px;
+    font-size: 2.4rem;
     text-align: center;
-    line-height: 38px;
+    line-height: 3.8rem;
     font-weight: 400;
     font-style: normal;
     width: 100%;
@@ -172,16 +172,16 @@ h2{
   }
   
   .event-card {
-    margin: 0 100px;
+    margin: 0 10.0rem;
   }
   
   .event-card-padding {
-    margin-left: 10px;
+    margin-left: 1.0rem;
   }
 
   .research-main-image {
-    width: 263px !important;
-    height: 200px !important;
+    width: 26.3rem !important;
+    height: 2.rem !important;
     object-fit:contain;
     overflow: hidden;
   margin-top: 0%;
@@ -190,45 +190,17 @@ h2{
 
   .contactus{
     background-color: #252525;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 5.0rem;
+    padding-bottom: 3.0rem;
     
     
   }
   .contactus-text{
     color: white;
   }
-/*
- h1{
-    position: relative;
-    color:#6c63ff;
-    font-size:4em;
-}
-h1 span{
-    position: absolute;
-    top:0;
-    right: 0;
-    background: rgb(2,29,68);
-    background: linear-gradient(90deg, rgba(2,29,68,1) 0%, rgba(2,29,68,1) 43%, rgba(8,35,73,1) 65%);
-    
-    width:100%;
-    border-left:.02em solid transparent;
-    -webkit-animation: typing 3s steps(16) forwards, cursor 1s infinite;
-    animation: typing 3s steps(16) forwards, cursor 1s infinite;
-}
-@-webkit-keyframes typing{
-    from{width:100%;}
-    to{width:0}
-}
-@-webkit-keyframes cursor{
-     50%{border-color:white;}
-}
 
-@keyframes typing{
-    from{width:100%;}
-    to{width:0}
-}
-@keyframes cursor{
-     50%{border-color:white;}
-}
- */
+  @media(max-width:968px){
+    html {
+      font-size: 50%;
+    }
+  }
