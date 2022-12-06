@@ -529,6 +529,12 @@ padding-top: 0.5 rem;
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #0563bb;
 }
+
+
+.testimonial-title{
+  text-align: left;
+  margin-left: 25rem;
+}
 /* responsiveness */
 
 @media(max-width:400px) {
