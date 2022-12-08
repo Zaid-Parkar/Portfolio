@@ -10,8 +10,7 @@
   font-family: 'Roboto Slab', serif;
   scroll-behavior: smooth;
   color: rgb(2, 0, 0);
-  /* background: rgb(2,29,68);
-background: linear-gradient(90deg, rgba(2,29,68,1) 0%, rgba(2,29,68,1) 43%, rgba(8,35,73,1) 65%); */
+  background-color: #f8f8f8;
 }
 
 /* coverpage */
@@ -137,7 +136,7 @@ li {
   font-weight: 600;
   line-height: 9.6rem;
 
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 
@@ -157,16 +156,24 @@ h2 {
 }
 
 /* contactus */
-
+#contact-me{
+  text-align: center;
+  width: 100%;
+  margin: 0;
+ 
+}
 .contactus-maindesc {
   font-size: 1.7rem;
   line-height: 1.5;
-  text-align: center;
+  text-align: center; 
+  padding-top: 3rem;
 }
 
 .contactus-desc {
   font-size: 1rem;
   line-height: 1.5;
+  text-align: center;
+  
 }
 
 /* project */
@@ -182,6 +189,7 @@ h2 {
 
 .info {
   margin-left: 1.5rem;
+  
 }
 
 .project-sub-description {
@@ -215,6 +223,7 @@ h2 {
 .project-role{
 text-align: left;
 padding-top: 0.5 rem; 
+font-size: 20rem !important;
 }
 .project-desc{
 text-align: left;
@@ -237,8 +246,8 @@ padding-top: 0.5 rem;
 }
 
 .project-main-image {
-  width: 26.3rem !important;
-  height: 2.rem !important;
+  width: auto ;
+  height: 2.rem ;
   object-fit: contain;
   overflow: hidden;
   margin-top: 0%;
@@ -249,12 +258,14 @@ padding-top: 0.5 rem;
   background-color: #252525;
   padding-top: 5.0rem;
   padding-bottom: 3.0rem;
-
+ 
 
 }
 
 .contactus-text {
+  
   color: white;
+  text-align: center;
 }
 
 
@@ -266,13 +277,13 @@ padding-top: 0.5 rem;
 .work-experience .work-experience-title {
   font-size: 4rem;
   font-weight: 70rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   color: #45505b;
 }
 
 .work-experience .work-experience-item {
-  padding: 0 0 2rem 2rem;
+  padding: 0 0 4rem 4rem;
   margin-top: -0.2rem;
   border-left: 0.2rem solid #0563bb;
   position: relative;
@@ -293,7 +304,7 @@ padding-top: 0.5 rem;
 .work-experience .work-experience-item h5 {
   font-size: 2rem;
   background: #f7f8f9;
-  padding: .5rem 1.5rem;
+  padding: 1.0rem 2.0rem;
   display: inline-block;
   font-weight: 60rem;
   margin-bottom: 1rem;
@@ -306,12 +317,15 @@ ul{
 font-size: 2rem;
 text-align: left;
 }
+
+
 .work-exp-title{
   font-size: 5rem;
   color: #000000;
 text-align: center;
-margin-top: 1rem;
-margin-bottom: 1rem;
+margin-top: 3rem;
+margin-bottom: 3rem;
+text-decoration: underline;
 }
 .work-experience .work-experience-item ul {
   padding-left: 2rem;
@@ -346,6 +360,7 @@ margin-bottom: 1rem;
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+ 
 }
 
 .services .icon-box .icon {
@@ -470,7 +485,33 @@ margin-bottom: 1rem;
   fill: #11dbcf;
 }
 
+/* mail */
+.mail{
+  margin-bottom: 2rem !important;
+ padding:1rem;
+ text-decoration-line:none ;
+}
 
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#ffffff;
+  border-color:#337fed;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  background:linear-gradient(#3d94f6, #1e62d0);
+  margin-bottom: 2rem;
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#1e62d0, #3d94f6);
+}
+              
 
 /* testinomial */
 
@@ -497,8 +538,26 @@ margin-bottom: 1rem;
   .abtme {
     width: 80%;
   }
-
+  .info{
+    font-size: 3rem;
+  }
+.project-link{
+  font-size: 4rem !important;
   
+}  
+  .mobile-card{
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    height: 50rem !important;
+    width: 50rem !important; 
+ }
+ .work-experience{
+ justify-content: center;
+ }
+ .service-card{
+  width: 80%;
+ margin: auto;
+ }
 }
 
 @media(min-width:401px) and (max-width:672px) {
@@ -514,7 +573,6 @@ margin-bottom: 1rem;
   .abtme {
     width: 80%;
   }
-
 
 }
 
@@ -532,11 +590,7 @@ margin-bottom: 1rem;
     width: 80%;
   }
 
-  .contactusform {
-    width: 50%;
-    text-align: center;
-
-  }
+  
 }
 
 @media(min-width:769px) and (max-width:1000px) {
@@ -553,11 +607,7 @@ margin-bottom: 1rem;
     width: 80%;
   }
 
-  .contactusform {
-    width: 50%;
-    text-align: center;
-
-  }
+ 
 }
 
 @media(min-width:1001px) and (max-width:1200px) {
@@ -575,11 +625,7 @@ margin-bottom: 1rem;
   }
 
   .contactusform {
-    width: 50%;
-    text-align: center;
-
-
-  }
+ 
 }
 
 @media(min-width:1201px) {
@@ -600,9 +646,5 @@ margin-bottom: 1rem;
     width: 80%;
   }
 
-  .contactusform {
-    width: 50%;
-    text-align: center;
-
-  }
+  
 }
