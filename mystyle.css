@@ -584,6 +584,12 @@ ul {
     width: 80%;
     margin: auto;
   }
+  .container-blog{
+    width: 70%;
+    justify-content: center !important;
+    margin: auto;
+    padding: auto;
+  }
 }
 
 @media(min-width:401px) and (max-width:672px) {
