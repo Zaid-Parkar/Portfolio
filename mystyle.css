@@ -6,6 +6,13 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+.btn:focus{
+  background-color: red;
+  padding: 0% !important;
+  margin: 0% !important;
+  
+}
+  
 .body {
   font-family: 'Roboto Slab', serif;
   scroll-behavior: smooth;
@@ -85,6 +92,7 @@ li {
   color: #008bf8;
 
 }
+
 /* sections */
 #aboutme #projects #contactme #skills #AboutMe {
   padding-bottom: 7.0rem;
@@ -93,8 +101,8 @@ li {
 
 }
 
-.info{
- padding-top: 0.5 rem; 
+.info {
+  padding-top: 0.5 rem;
 }
 
 .abtme {
@@ -113,7 +121,7 @@ li {
 .project-link {
   text-decoration: none;
   color: black;
-  padding-top: 4.5 rem; 
+  padding-top: 4.5 rem;
 
 }
 
@@ -156,16 +164,17 @@ h2 {
 }
 
 /* contactus */
-#contact-me{
+#contact-me {
   text-align: center;
   width: 100%;
   margin: 0;
- 
+
 }
+
 .contactus-maindesc {
   font-size: 1.7rem;
   line-height: 1.5;
-  text-align: center; 
+  text-align: center;
   padding-top: 3rem;
 }
 
@@ -173,7 +182,7 @@ h2 {
   font-size: 1rem;
   line-height: 1.5;
   text-align: center;
-  
+
 }
 
 /* project */
@@ -189,7 +198,7 @@ h2 {
 
 .info {
   margin-left: 1.5rem;
-  
+
 }
 
 .project-sub-description {
@@ -205,35 +214,40 @@ h2 {
 
 .zoom:hover {
   transform: scale(1.05);
- 
+
   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-.pc:hover{
+.pc:hover {
   color: black;
 }
-.pc{
+
+.pc {
   color: #000000;
 }
+
 /* Card */
-.card-color:hover{
+.card-color:hover {
   color: #000000;
-  
+
 }
-.project-role{
-text-align: left;
-padding-top: 0.5 rem; 
-font-size: 20rem !important;
+
+.project-role {
+  text-align: left;
+  padding-top: 0.5 rem;
+  font-size: 20rem !important;
 }
-.project-desc{
-text-align: left;
-padding-top: 0.5 rem; 
+
+.project-desc {
+  text-align: left;
+  padding-top: 0.5 rem;
 }
+
 .card {
   margin: 0 auto;
   border: 0;
   padding: 0;
-  width: 20%;
+  width: auto;
   color: #000000;
 }
 
@@ -246,8 +260,8 @@ padding-top: 0.5 rem;
 }
 
 .project-main-image {
-  width: auto ;
-  height: 2.rem ;
+  width: auto;
+  height: 2.rem;
   object-fit: contain;
   overflow: hidden;
   margin-top: 0%;
@@ -258,12 +272,12 @@ padding-top: 0.5 rem;
   background-color: #252525;
   padding-top: 5.0rem;
   padding-bottom: 3.0rem;
- 
+
 
 }
 
 .contactus-text {
-  
+
   color: white;
   text-align: center;
 }
@@ -271,9 +285,10 @@ padding-top: 0.5 rem;
 
 
 /*WORK-EXPERIENCE */
-#work-experience{
+#work-experience {
   padding: 1rem;
 }
+
 .work-experience .work-experience-title {
   font-size: 4rem;
   font-weight: 70rem;
@@ -298,7 +313,7 @@ padding-top: 0.5 rem;
   font-family: "Poppins", sans-serif;
   color: #0563bb;
   margin-bottom: 1rem;
-  
+
 }
 
 .work-experience .work-experience-item h5 {
@@ -310,23 +325,25 @@ padding-top: 0.5 rem;
   margin-bottom: 1rem;
 }
 
-ul{
+ul {
   text-align: left;
 }
-.work-exp-desc{
-font-size: 2rem;
-text-align: left;
+
+.work-exp-desc {
+  font-size: 2rem;
+  text-align: left;
 }
 
 
-.work-exp-title{
+.work-exp-title {
   font-size: 5rem;
   color: #000000;
-text-align: center;
-margin-top: 3rem;
-margin-bottom: 3rem;
-text-decoration: underline;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-decoration: underline;
 }
+
 .work-experience .work-experience-item ul {
   padding-left: 2rem;
 }
@@ -360,7 +377,7 @@ text-decoration: underline;
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
- 
+
 }
 
 .services .icon-box .icon {
@@ -486,42 +503,46 @@ text-decoration: underline;
 }
 
 /* mail */
-.mail{
+.mail {
   margin-bottom: 2rem !important;
- padding:1rem;
- text-decoration-line:none ;
+  padding: 1rem;
+  text-decoration-line: none;
 }
 
 .buttonClass {
-  font-size:15px;
-  font-family:Arial;
-  width:140px;
-  height:50px;
-  border-width:1px;
-  color:#ffffff;
-  border-color:#337fed;
-  border-top-left-radius:6px;
-  border-top-right-radius:6px;
-  border-bottom-left-radius:6px;
-  border-bottom-right-radius:6px;
-  background:linear-gradient(#3d94f6, #1e62d0);
+  font-size: 15px;
+  font-family: Arial;
+  width: 140px;
+  height: 50px;
+  border-width: 1px;
+  color: #ffffff;
+  border-color: #337fed;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: linear-gradient(#3d94f6, #1e62d0);
   margin-bottom: 2rem;
 }
 
 .buttonClass:hover {
   background: linear-gradient(#1e62d0, #3d94f6);
 }
-              
+
 
 /* testinomial */
 
-.testimonial-area{
+.testimonial-area {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
 
-
+.workset-footer {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 400;
+}
 
 /* responsiveness */
 
@@ -538,26 +559,31 @@ text-decoration: underline;
   .abtme {
     width: 80%;
   }
-  .info{
+
+  .info {
     font-size: 3rem;
   }
-.project-link{
-  font-size: 4rem !important;
-  
-}  
-  .mobile-card{
+
+  .project-link {
+    font-size: 4rem !important;
+
+  }
+
+  .mobile-card {
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
     height: 50rem !important;
-    width: 50rem !important; 
- }
- .work-experience{
- justify-content: center;
- }
- .service-card{
-  width: 80%;
- margin: auto;
- }
+    width: 50rem !important;
+  }
+
+  .work-experience {
+    justify-content: center;
+  }
+
+  .service-card {
+    width: 80%;
+    margin: auto;
+  }
 }
 
 @media(min-width:401px) and (max-width:672px) {
@@ -590,7 +616,7 @@ text-decoration: underline;
     width: 80%;
   }
 
-  
+
 }
 
 @media(min-width:769px) and (max-width:1000px) {
@@ -607,7 +633,7 @@ text-decoration: underline;
     width: 80%;
   }
 
- 
+
 }
 
 @media(min-width:1001px) and (max-width:1200px) {
@@ -624,8 +650,8 @@ text-decoration: underline;
     width: 80%;
   }
 
-  .contactusform {
- 
+
+
 }
 
 @media(min-width:1201px) {
@@ -646,5 +672,5 @@ text-decoration: underline;
     width: 80%;
   }
 
-  
+
 }
